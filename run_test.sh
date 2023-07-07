@@ -7,6 +7,8 @@ bitcoin-cli createwallet test2
 bitcoin-cli createwallet test3
 bitcoin-cli createwallet trash
 
+bitcoin-cli -rpcwallet=test1 listtransactions
+
 bitcoin-cli -rpcwallet=test1 getnewaddress
 # bcrt1qhzgcmn2wz4rrscw407mgh8r8g5zk44764q0s2a
 bitcoin-cli -rpcwallet=test2 getnewaddress
